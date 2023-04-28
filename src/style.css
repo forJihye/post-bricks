@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  color: #111;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  vertical-align: top;
+}
+#hs-bricks-popup {
+  position: relative;
+}
+#hs-bricks-popup .post-popup-container {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.65);
+}
+#hs-bricks-app .hs-bricks-inner {
+  width: 100%;
+  overflow: hidden;
+}
+#hs-bricks-app .post-column {
+  float: left;
+}
+
+#hs-bricks-app .post-columns-main {
+  width: 100%;
+  overflow: hidden;
+}
+#hs-bricks-app .carousel-container {
+  height: 100%;
+  overflow: hidden;
+}
+#hs-bricks-app .carousel-innter::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+#hs-bricks-app .carousel-innter .post-columns-main {
+  float: left;
+}
+#hs-bricks-app .post-container {
+  border: 1px solid #111;
+}
